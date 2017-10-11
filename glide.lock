@@ -1,0 +1,21 @@
+hash: fe7124c6e73cf8f0e708d1e23cf94477dbcc89969b4b9d7739005c1d65586083
+updated: 2017-10-11T16:26:55.27196391+05:00
+imports:
+- name: github.com/mitchellh/go-homedir
+  version: b8bc1bf767474819792c23f32d8286a45736f1c6
+- name: github.com/Sirupsen/logrus
+  version: 89742aefa4b206dcf400792f3bd35b542998eb3b
+- name: github.com/urfave/cli
+  version: 2997500ba5f393daa5d76c18544c6367b2c48d16
+- name: golang.org/x/crypto
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: ebfc5b4631820b793c9010c87fd8fef0f39eb082
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+devImports: []
